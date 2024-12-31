@@ -9,33 +9,33 @@ user_messages::position_ctrl cmd;
 
 int main(int argc,char **argv)
 {
-    ros::init(argc,argv,"auto_flight_demo");//初始化节点名称
-    ros::NodeHandle n;//初始化节点句柄 
-    ros::Publisher pos_cmd_pub=n.advertise<user_messages::position_ctrl>("position_comand",100);//定义SDK控制话题发布者
-    ros::Duration(1).sleep();//节点初始化后必要的延时
+    ros::init(argc,argv,"auto_flight_demo");
+    ros::NodeHandle n;
+    ros::Publisher pos_cmd_pub=n.advertise<user_messages::position_ctrl>("position_comand",100);
+    ros::Duration(1).sleep();
 
-    //向前移动100CM
+    
     cmd.move_flag=0;
     cmd.move_order=0;
     cmd.move_distance=100;
     pos_cmd_pub.publish(cmd);
     pos_cmd_translate(&cmd);
 
-    //向右移动100CM
+    
     ros::Duration(10).sleep();
     cmd.move_flag=3;
     cmd.move_order=0;
     cmd.move_distance=100;
     pos_cmd_pub.publish(cmd);
     pos_cmd_translate(&cmd);
-    //向后移动100CM
+    
     ros::Duration(10).sleep();
     cmd.move_flag=1;
     cmd.move_order=0;
     cmd.move_distance=100;
     pos_cmd_pub.publish(cmd);
     pos_cmd_translate(&cmd);
-    //向左移动100CM
+    
     ros::Duration(10).sleep();
     cmd.move_flag=2;
     cmd.move_order=0;
