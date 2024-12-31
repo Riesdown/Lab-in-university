@@ -10,3 +10,8 @@
   此项目为参加2023年四川省第三届未来飞行器挑战赛实践类赛道，主要功能为室外GPS定位实现无人机利用opencv识别二维码从而控制舵机投掷对应识别到的二维码的小球数量，同时在规划区域内进行路径规划，识别完成二维码之后从A区域进行转向，从而到达B区域，执行投掷小球的任务处理，最终返回原点。定位方式采用GPS，机载电脑为树莓派Ubuntu18.04，开发板为飞控pixhawk2.4.8.视觉采用opencv识别。舵机采用50HZ，所有任务处理均采用ROS框架进行开发。
 # SiChuan Aircraft competition(2024)
   此项目为参加2024年四川省第四届未来飞行器挑战赛实践类赛道实机飞行项目，主要功能为室内激光雷达定位，利用雷达点云数据处理实现穿框识别二维码，识别对应的柱子。机载电脑为树莓派Ubuntu18.04，视觉采用opencv，开发板为pixhawk2.4.8，
+
+  ## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
