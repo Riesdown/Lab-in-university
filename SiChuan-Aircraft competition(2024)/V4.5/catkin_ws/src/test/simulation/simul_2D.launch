@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="x" default="0"/>
+    <arg name="y" default="0"/>
+    <arg name="z" default="0"/>
+    <arg name="R" default="0"/>
+    <arg name="P" default="0"/>
+    <arg name="Y" default="0"/>
+    
+    <arg name="model" default="iris_rplidar"/>
+
+    <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch"> -->
+    <!-- <arg name="world" default="$(find test)/worlds/test1.world"/> -->
+    <arg name="world" default="$(find test)/worlds/world1.world"/>
+
+    <arg name="vehicle" default="iris"/>
+    
+    <arg name="fcu_url" default="udp://:24540@localhost:34580"/>
+
+    <node pkg="tf" type="static_transform_publisher" name="scan"
+          args="0 0 0 3.1415926 0 0 base_link laser 10"/>
+    
+    <include file="$(find px4)/launch/px4.launch">
+        <arg name="vehicle" value="$(arg vehicle)"/>
+    </include>
+    
+    <include file="$(find mavros)/launch/px4.launch">
+        <arg name="fcu_url" value="$(arg fcu_url)"/>
+    </include>
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="gui" value="true"/>
+        <arg name="world_name" value="$(arg world)"/>
+    </include>
+
+    <node name="spawn_model" pkg="gazebo_ros" type="spawn_model" output="screen" 
+          args="-sdf -database $(arg model) -model $(arg vehicle) -x $(arg x) -y $(arg y) -z $(arg z) -R $(arg R) -P $(arg P) -Y $(arg Y)"/>
+</launch>

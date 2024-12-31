@@ -1,0 +1,8 @@
+prefix=/home/shili/wlf_catkin_ws/devel_isolated/mission_node
+
+Name: mission_node
+Description: Description of mission_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

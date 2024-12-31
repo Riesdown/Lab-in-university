@@ -1,0 +1,6 @@
+<launch>
+    <rosparam file="$(find test)/config/config.yaml" />
+
+
+    <node pkg="test" type="Cloud_Map.py" name="Cloud_Map"  output="screen"/>
+</launch>

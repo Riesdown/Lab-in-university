@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libdrone_cruise_lib.so -o /home/shili/wlf_catkin_ws/devel/lib/libdrone_cruise_lib.so CMakeFiles/drone_cruise_lib.dir/src/drone_cruise.cpp.o 

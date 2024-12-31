@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/shili/wlf_catkin_ws/devel_isolated/nlink_parser/include/**",
+        "/home/shili/N10_ws/devel/include/**",
+        "/home/shili/wlf_catkin_ws/devel/include/**",
+        "/home/shili/px4_learn_ws/devel/include/**",
+        "/home/shili/learn_catkin_ws/devel/include/**",
+        "/home/shili/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/shili/wlf_catkin_ws/src/duoji_node/include/**",
+        "/home/shili/wlf_catkin_ws/src/first_fly_node/include/**",
+        "/home/shili/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+        "/home/shili/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+        "/home/shili/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros_control/include/**",
+        "/home/shili/learn_catkin_ws/src/imu_pkg/include/**",
+        "/home/shili/learn_catkin_ws/src/launch_pkg/include/**",
+        "/home/shili/learn_catkin_ws/src/lidar_pkg/include/**",
+        "/home/shili/N10_ws/src/LSLIDAR_N10_ROS/include/**",
+        "/home/shili/learn_catkin_ws/src/map_pkg/include/**",
+        "/home/shili/wlf_catkin_ws/src/mission_node/include/**",
+        "/home/shili/px4_learn_ws/src/mission_pkg/include/**",
+        "/home/shili/learn_catkin_ws/src/my_msgs/include/**",
+        "/home/shili/N10_ws/src/n10_slam_test/include/**",
+        "/home/shili/wlf_catkin_ws/src/number_recognize_node/include/**",
+        "/home/shili/px4_learn_ws/src/offboard_pkg/include/**",
+        "/home/shili/wlf_catkin_ws/src/send_pos_to_px4_node/include/**",
+        "/home/shili/px4_learn_ws/src/simulation_pkg/include/**",
+        "/home/shili/learn_catkin_ws/src/ssr_pkg/include/**",
+        "/home/shili/learn_catkin_ws/src/ros_tutorials/turtlesim/include/**",
+        "/home/shili/learn_catkin_ws/src/vel_pkg/include/**",
+        "/home/shili/learn_catkin_ws/src/wlb_pkg/include/**",
+        "/home/shili/learn_catkin_ws/src/wpr_simulation/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

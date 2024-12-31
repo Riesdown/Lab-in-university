@@ -1,0 +1,30 @@
+
+
+# 范围限制
+yaml_x_min: 0
+yaml_x_max: 9
+yaml_y_min: -3
+yaml_y_max: 3
+yaml_z_min: -2
+yaml_z_max: 3
+
+# 忽略位置
+yaml_ignore_range: 0.4
+
+
+# 初始高度
+yaml_start_z: 1.2
+
+# 1.2
+
+
+
+# 速度限制
+yaml_speed_xy: 3
+yaml_speed_z: 1
+
+# 云大小
+yaml_cloud_size: 0.01
+
+# 是否滤波
+yaml_is_resize: 1

@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="test" type="unlock2" name="unlock2" />
+    <node pkg="test" type="vary" name="vary" output="screen" />
+
+</launch>

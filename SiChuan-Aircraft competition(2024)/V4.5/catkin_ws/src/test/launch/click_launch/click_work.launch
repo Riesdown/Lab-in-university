@@ -1,0 +1,37 @@
+<launch>
+
+    <node pkg="test" type="unlock2" name="unlock2" />
+    <node pkg="test" type="fix2" name="fix2" output="screen" >
+
+        <!-- 第二个框高度 -->
+        <param name="h2" value="1.2" />
+
+        <!-- 识别二维码高度 -->
+        <param name="h3" value="1.5" />
+
+        <!-- 待降落高度 -->
+        <param name="h_land" value="1.5" />
+
+        <!-- 是否稳定，1稳定，0快速 -->
+        <param name="stab" value="0" />
+
+       <!-- xy误差-->
+        <param name="xy_zone" value="0.2" />
+
+       <!-- 降落xy误差-->
+        <param name="land_zone" value="1" />
+
+       <!-- 超柱距离-->
+        <param name="x_over" value="0.5" />
+
+        <!-- 二维码中心 -->
+        <param name="ca_x" value="7.13" />
+        <param name="ca_y" value="-0.75" />
+
+        <!-- 降落点中心 -->
+        <param name="land_x" value="8.1" />
+        <param name="land_y" value="0.83" />
+
+    </node>
+
+</launch>

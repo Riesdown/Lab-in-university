@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find test)/config/config.yaml" />
+
+    <node pkg="test" type="offboard" name="offboard" output="screen"/>
+</launch>

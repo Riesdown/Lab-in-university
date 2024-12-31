@@ -1,0 +1,8 @@
+prefix=/home/shili/wlf_catkin_ws/install
+
+Name: send_pos_to_px4_node
+Description: Description of send_pos_to_px4_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

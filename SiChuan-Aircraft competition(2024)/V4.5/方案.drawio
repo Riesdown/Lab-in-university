@@ -1,0 +1,107 @@
+<mxfile host="Electron" modified="2024-11-10T02:24:32.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Ir8E9UO_Qi4EONxuOu63" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="pE_8slWfVtkaQH8pgO1O">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FolaLzVnNjFU_GXzxs5l-1" target="FolaLzVnNjFU_GXzxs5l-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-1" value="方案1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FolaLzVnNjFU_GXzxs5l-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FolaLzVnNjFU_GXzxs5l-2" target="FolaLzVnNjFU_GXzxs5l-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FolaLzVnNjFU_GXzxs5l-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;1，在地图上量坐标，此坐标为飞机飞行路径&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2，修改Fixed_Path.cpp的固定坐标&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-7" value="优点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="220" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-8" value="1，简单&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2，迅速&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="FolaLzVnNjFU_GXzxs5l-7" vertex="1">
+          <mxGeometry y="30" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-12" value="缺点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="175" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-13" value="1，需要频繁量坐标&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2，量出的坐标不一定准确&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3，不能确保坐标固定不变&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="FolaLzVnNjFU_GXzxs5l-12" vertex="1">
+          <mxGeometry y="30" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-16" value="方案二" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="FolaLzVnNjFU_GXzxs5l-17" target="FolaLzVnNjFU_GXzxs5l-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FolaLzVnNjFU_GXzxs5l-17" target="FolaLzVnNjFU_GXzxs5l-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="302.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FolaLzVnNjFU_GXzxs5l-17" target="FolaLzVnNjFU_GXzxs5l-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-17" value="1，假设飞机起飞位置，降落位置，小车跑的圈固定。得到降落坐标，小车离降落点最近的坐标。两个框的高度。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2，点云数据里面点击5个坐标（左键点击，右键确定，enter重置，空格完成），第1个坐标确保飞机不会撞柱子，同时方便飞机直接穿过框；后面4个点分别点击框边缘。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="835" y="195" width="270" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-19" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-20" value="运行run_fix.sh" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-26" value="优点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="187.5" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-27" value="1，简单&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2，迅速&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3，鲁棒性好&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="FolaLzVnNjFU_GXzxs5l-26" vertex="1">
+          <mxGeometry y="30" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-30" value="缺点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="250" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-31" value="1，如果起飞前看不到后面的矩形框点云就无法操作" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="FolaLzVnNjFU_GXzxs5l-30" vertex="1">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-34" value="运行run_click.sh" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FolaLzVnNjFU_GXzxs5l-36" target="FolaLzVnNjFU_GXzxs5l-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-36" value="方案三" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FolaLzVnNjFU_GXzxs5l-37" target="FolaLzVnNjFU_GXzxs5l-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-37" value="1，假设飞机起飞位置，降落位置，小车跑的圈固定。得到降落坐标，小车离降落点最近的坐标。两个框的高度。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2，点击两个坐标，确保飞机穿过前两个柱子&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="195" width="220" height="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FolaLzVnNjFU_GXzxs5l-46" target="FolaLzVnNjFU_GXzxs5l-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-46" value="获取两个柱的中心坐标" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FolaLzVnNjFU_GXzxs5l-50" value="以当前飞机x坐标为起点，每0.1m为步长，y轴范围限制在-2.5 到 2.5." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="660" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,10 @@
+<launch>
+<!-- 这是一个控制无人机位置来找到原并降落的launch文件 -->
+<include file="$(find px4)/launch/mavros_posix_sitl.launch" />   <!-- 启动其他 launch文件，启动sitl仿真 -->
+
+<node pkg="first_fly_node" type="first_fly_node" name="first_fly_node"   output="screen" />   <!-- 启动节点，外部控制 -->
+
+
+
+
+</launch>

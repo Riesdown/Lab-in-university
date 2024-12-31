@@ -1,0 +1,2 @@
+duoji_node:first_fly_node:mission_node:nlink_parser:number_recognize_node:send_pos_to_px4_node
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/shili/wlf_catkin_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/shili/wlf_catkin_ws/install_isolated

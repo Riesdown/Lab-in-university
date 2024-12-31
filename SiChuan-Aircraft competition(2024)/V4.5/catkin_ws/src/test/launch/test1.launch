@@ -1,0 +1,17 @@
+<launch>
+    <rosparam file="$(find test)/config/config.yaml" />
+
+    <node pkg="test" type="offboard" name="offboard" />
+
+    <node pkg="test" type="unlock" name="unlock" />
+
+    <node pkg="test" type="test1" name="test1" output="screen">
+        <param name="mode" value="1" />
+    </node>
+
+    <node pkg="test" type="circle_node.py" name="circle_node" output="screen"/>
+
+
+
+</launch>
+

@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ubuntu/N10_ws/devel/include/**",
+        "/home/ubuntu/wlf_catkin_ws/devel/include/**",
+        "/home/ubuntu/px4_learn_ws/devel/include/**",
+        "/home/ubuntu/learn_catkin_ws/devel/include/**",
+        "/home/ubuntu/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/ubuntu/wlf_catkin_ws/src/duoji_node/include/**",
+        "/home/ubuntu/wlf_catkin_ws/src/first_fly_node/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/imu_pkg/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/launch_pkg/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/lidar_pkg/include/**",
+        "/home/ubuntu/N10_ws/src/LSLIDAR_N10_ROS/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/map_pkg/include/**",
+        "/home/ubuntu/wlf_catkin_ws/src/mission_node/include/**",
+        "/home/ubuntu/px4_learn_ws/src/mission_pkg/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/my_msgs/include/**",
+        "/home/ubuntu/N10_ws/src/n10_slam_test/include/**",
+        "/home/ubuntu/px4_learn_ws/src/offboard_pkg/include/**",
+        "/home/ubuntu/wlf_catkin_ws/src/send_pos_to_px4_node/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/ssr_pkg/include/**",
+        "/home/ubuntu/catkin_ws/src/test/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/ros_tutorials/turtlesim/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/vel_pkg/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/wlb_pkg/include/**",
+        "/home/ubuntu/learn_catkin_ws/src/wpr_simulation/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

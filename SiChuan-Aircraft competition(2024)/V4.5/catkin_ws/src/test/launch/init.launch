@@ -1,0 +1,12 @@
+<launch>
+    <include file="$(find nlink_parser)/launch/tofsense.launch" />
+
+    <include file="$(find mavros)/launch/px4.launch" />
+
+    <node pkg="sensor_fusion_to_px4" type="sensor_fusion_to_px4_node" name="sensor_fusion_to_px4_node"  />
+
+
+    <include file="$(find hector_mapping)/launch/mapping.launch" />
+
+</launch>
+

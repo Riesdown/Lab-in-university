@@ -1,0 +1,8 @@
+<launch>
+    <rosparam file="$(find test)/config/config.yaml" />
+
+    <node pkg="test" type="offboard" name="offboard" output="screen"/>
+
+    <node pkg="test" type="send_cloud" name="send_cloud"/>
+
+</launch>

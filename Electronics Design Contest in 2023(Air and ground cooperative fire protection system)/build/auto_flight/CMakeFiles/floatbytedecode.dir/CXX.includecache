@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cindy/catkin_ws/src/auto_flight/src/floatbytedecode.cpp
+iostream
+-
+cstring
+-
+floatbytedecode.h
+/home/cindy/catkin_ws/src/auto_flight/src/floatbytedecode.h
+
+/home/cindy/catkin_ws/src/auto_flight/src/floatbytedecode.h
+

@@ -1,0 +1,8 @@
+prefix=/home/cindy/catkin_ws/install
+
+Name: auto_flight
+Description: Description of auto_flight
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

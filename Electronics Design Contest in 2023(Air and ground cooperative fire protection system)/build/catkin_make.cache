@@ -1,0 +1,2 @@
+auto_flight:lsn10:lsx10/lslidar:lsx10/lslidar_driver:lsx10/lslidar_msgs:rplidar_ros:serial:serialport:teleop_twist_keyboard:usb_cam:user_messages
+-DCATKIN_DEVEL_PREFIX=/home/cindy/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cindy/catkin_ws/install -G Unix Makefiles

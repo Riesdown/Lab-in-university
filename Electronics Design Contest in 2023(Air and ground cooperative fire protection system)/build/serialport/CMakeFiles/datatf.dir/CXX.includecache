@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cindy/catkin_ws/src/serialport/include/datatf.h
+
+/home/cindy/catkin_ws/src/serialport/src/datatf.cpp
+iostream
+-
+cstring
+-
+datatf.h
+/home/cindy/catkin_ws/src/serialport/src/datatf.h
+

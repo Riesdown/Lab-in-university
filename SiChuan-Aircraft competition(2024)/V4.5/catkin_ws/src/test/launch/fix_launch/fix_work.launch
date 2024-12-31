@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="test" type="unlock" name="unlock" output="screen" />
+    <node pkg="test" type="fix" name="fix" output="screen" />
+
+</launch>

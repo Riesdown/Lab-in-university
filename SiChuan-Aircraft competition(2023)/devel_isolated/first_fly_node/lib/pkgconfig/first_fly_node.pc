@@ -1,0 +1,8 @@
+prefix=/home/shili/wlf_catkin_ws/devel_isolated/first_fly_node
+
+Name: first_fly_node
+Description: Description of first_fly_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

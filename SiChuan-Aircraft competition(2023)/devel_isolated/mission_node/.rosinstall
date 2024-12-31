@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/shili/wlf_catkin_ws/devel_isolated/mission_node/setup.sh

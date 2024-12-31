@@ -1,0 +1,32 @@
+<launch>
+
+<include file="$(find lsn10)/launch/lsn10.launch" />   <!-- 启动激光雷达 -->
+<include file="$(find nlink_parser)/launch/tofsense.launch" />   <!-- 启动激光tofsenser -->
+
+
+<node pkg="hector_mapping" type="hector_mapping" name="hector_mapping"  output="screen">    <!-- 启动节点 -->
+            <param name="map_update_distance_thresh"  value="0.1"/>
+             <param name="map_update_angle_thresh"  value="0.1"/>                   <!-- 更改参数 -->
+              <param name="map_pub_period "  value="0.1"/>
+               <param name="map_size "  value="4096"/>
+</node>
+
+ <!-- tf -->s
+  <node pkg="tf" type="static_transform_publisher" name="map_to_odom" 
+    args="0.0 0.0 0.0 0 0 0.0 /map /odom 40" />
+  <node pkg="tf" type="static_transform_publisher" name="odom_to_basefootprint" 
+        args="0.0 0.0 0.0 0 0 0.0 /odom /base_footprint 40" />
+  <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_base_link" 
+        args="0.0 0.0 0.0 0 0 0.0 /base_footprint /base_link 40" />
+ <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" 
+        args="0.2245 0.0 0.2 0.0 0.0 0.0 /base_link /laser_link 40" />
+
+ <node name="rviz" pkg="rviz" type="rviz" args="-d $(find n10_slam_test)/rviz/default.rviz" output="screen"/>      #雷达点云配置
+
+
+<node pkg = "send_pos_to_px4_node" type="send_pos_to_px4_node" name="send_pos_to_px4_node" output="screen" />
+</launch>
+
+
+
+

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/shili/wlf_catkin_ws/devel_isolated/send_pos_to_px4_node/setup.sh

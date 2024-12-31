@@ -1,0 +1,22 @@
+<launch>
+
+    <node pkg="test" type="OLED_Show.py" name="OLED_Show" output="screen" /> 
+    <node pkg="test" type="key_node.py" name="key_node" output="screen" /> 
+    <node pkg="test" type="Send_Arm.py" name="Send_Arm" /> 
+    
+    <node pkg="test" type="open_get_state.py" name="open_get_state" /> 
+    <node pkg="test" type="LED.py" name="LED" /> 
+    
+    <node pkg="test" type="ai" name="ai"  output="screen"/> 
+
+
+
+    <node pkg="test" type="arm" name="arm" output="screen" /> 
+
+    <node pkg="test" type="sch" name="sch" output="screen" /> 
+
+    <node pkg="test" type="send" name="send"/> 
+
+
+
+</launch>

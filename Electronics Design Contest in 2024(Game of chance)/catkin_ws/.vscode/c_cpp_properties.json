@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ubuntu/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/ubuntu/catkin_ws/src/combined_pkg/include/**",
+        "/home/ubuntu/catkin_ws/src/hector_slam-melodic-devel/hector_geotiff/include/**",
+        "/home/ubuntu/catkin_ws/src/hector_slam-melodic-devel/hector_map_tools/include/**",
+        "/home/ubuntu/catkin_ws/src/hector_slam-melodic-devel/hector_mapping/include/**",
+        "/home/ubuntu/catkin_ws/src/hector_slam-melodic-devel/hector_marker_drawing/include/**",
+        "/home/ubuntu/catkin_ws/src/lidar_pkg/include/**",
+        "/home/ubuntu/catkin_ws/src/lsx10/lslidar_driver/include/**",
+        "/home/ubuntu/catkin_ws/src/offb_pkg/include/**",
+        "/home/ubuntu/catkin_ws/src/sensor_fusion_to_px4/include/**",
+        "/home/ubuntu/catkin_ws/src/tofsense_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

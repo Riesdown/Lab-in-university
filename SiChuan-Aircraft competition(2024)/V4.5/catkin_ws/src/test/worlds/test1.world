@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    
+    <!-- 插入地面 -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- 插入光源 -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- 定义墙体模型 -->
+    <model name="wall">
+      <static>true</static>
+      <pose>2.5 0 0 0 0 0</pose> <!-- 设置位置：x=3, y=0, z=0.5 -->
+
+      <link name="wall_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 1 1.5</size> <!-- 墙体尺寸：厚度0.1米，y轴方向5米，高度1米 -->
+            </box>
+          </geometry>
+        </collision>
+        
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 1 1.5</size> <!-- 墙体尺寸与collision保持一致 -->
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.2 0.2 1</ambient> <!-- 墙的颜色 -->
+          </material>
+        </visual>
+      </link>
+    </model>
+    
+  </world>
+</sdf>
